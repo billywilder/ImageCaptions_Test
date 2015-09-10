@@ -1,0 +1,33 @@
+.image {
+  position : relative;
+  margin: 10px;
+  overflow: hidden;
+  height: 180px;
+  width: 180px;
+  cursor:pointer;
+  vertical-align:baseline;
+  float:left;
+}
+.caption {
+  position:absolute;
+  bottom:0px;
+  overflow:hidden;
+  margin:0px;
+  padding:0px;
+  left:0px;
+  right:0px;
+  color:#fff;
+  opacity: 0.6;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+.caption_title{
+  padding:5px;
+  font-size:18px;
+}
+.caption_text{
+  display: none;
+  padding:5px;
+  margin:0px;
+  text-align:justify;
+  font-size:11px;
+}
